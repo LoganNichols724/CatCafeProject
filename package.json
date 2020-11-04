@@ -2,7 +2,7 @@
   "name": "catcafesite",
   "version": "1.0.0",
   "description": "This a portfolio project for NuCamp's Fullstack Course dealing with a mock cat cafe",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "lite": "lite-server",
     "start": "npm run lite",
