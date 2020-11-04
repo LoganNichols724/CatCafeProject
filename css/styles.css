@@ -1,8 +1,13 @@
-h1 {
-  font-family: 'Aladin', cursive; }
+#textAladin {
+  font-family: 'Aladin', cursive;
+}
 
-h2 {
+#textFlower {
   font-family: 'Indie Flower', cursive;
+}
+
+#backColor {
+  background-color: #c7973e;
 }
 
 .jumbotron {
