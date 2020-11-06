@@ -1,8 +1,8 @@
-#textAladin {
+body {
   font-family: 'Aladin', cursive;
 }
 
-#textFlower {
+h1, h2, h3 {
   font-family: 'Indie Flower', cursive;
 }
 
@@ -10,16 +10,38 @@
   background-color: #c7973e;
 }
 
+.site-footer {
+  /*background-image: linear-gradient(#CEC8FF, white);*/
+  padding: 20px 0; }
+
 .jumbotron {
-  /*background-image: url(/img/backgroundwall.jpg!d);*/
-  background-size: cover;
-  height: 100%;
-  margin-bottom: 0;
+  margin: 0;
+  padding: 30px;
+  /*background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);*/
+  color: white; 
 }
 
-#reserveButton {
-    background-color: #c7973e; 
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; 
 }
+
+.navbar {
+  background-color: #c7973e;
+}
+
+.tab-content {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px; 
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.carousel {
+  border: solid #5637dd; }
 
 #carouselButton {
     position: absolute;
@@ -28,6 +50,19 @@
     z-index: 100;
 }
 
-.navbar {
-    background-color: #c7973e;
+#reserveModal .modal-header {
+  background-color: #17A2B8; }
+
+#reserveModal .modal-title {
+  color: white; }
+
+#loginModal .modal-header {
+  background-color: #901CAD; }
+
+#loginModal .modal-title {
+  color: white; }
+  
+#reserveButton {
+  background-color: #c7973e; 
 }
+
